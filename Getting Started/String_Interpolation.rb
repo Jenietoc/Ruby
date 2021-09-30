@@ -6,4 +6,4 @@ name = 'Juan'
 p "Hello #{name}, how are you" #How concat anything a String #{}
 
 age = 22
-p "In three years, I will be #{age + 3} year old"
+p "In three years, I will be #{age + 3} years old."
