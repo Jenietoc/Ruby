@@ -1,0 +1,8 @@
+numbers = [1, 2, 3, 'Hello', 5, 6, nil, 7, 8, []]
+numbers.each do |num|
+    unless num.is_a?(Integer)
+        next
+    else
+        p num
+    end
+end
