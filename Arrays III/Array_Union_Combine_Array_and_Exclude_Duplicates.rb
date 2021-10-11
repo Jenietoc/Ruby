@@ -1,6 +1,8 @@
 a =  [1, 2, 3] # |
 b = [3, 4, 5, 5]
 
+p a|b
+
 #Challenge
 def custom_union(arr1, arr2)
     new_arr = []
