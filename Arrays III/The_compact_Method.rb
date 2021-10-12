@@ -1,4 +1,4 @@
-p array = [nil, false, 1, nil, 2, 3]. compact
+p array = [nil, false, 1, nil, 2, 3].compact
 
 #Challenge
 def custom_compact(array)
