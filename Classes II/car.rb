@@ -11,6 +11,10 @@ class Car
         self.value > car.value ? 'Your car is better!' : 'Your car ir worse'
     end
 
+    def getValue
+        value
+    end
+
     protected
 
     def value

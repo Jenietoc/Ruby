@@ -11,6 +11,14 @@ class Bookstore
     end
 end
 
+class Book
+    include Purchaseable
+    def purchase(item)
+        "#{item} has been purchased! in Bookstore"
+    end
+end
+
+p Book.ancestors
 p Bookstore.ancestors
-bn = Bookstore.new
-p bn.purchase('1984')
+#bn = Bookstore.new
+#p bn.purchase('1984')
